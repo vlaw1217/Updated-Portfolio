@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/indexstyle.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>
+        Home
+    </title>
+</head>
+
+
+</div>
+
+<body>
+    <div class=" container">
+        <!--Master Header-->
+
+        <header>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header">
+
+                        <!--My Photo-->
+
+                        <img src=".../img/IMG_2891.jpg" width="200" height="380px">
+                        <h1>I am Vicky Law</h1>
+
+                    </div>
+        </header>
+    </div>
+    </div>
+
+    <!--Home-->
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <p class="h1">Home</p>
+        </div>
+
+
+    </div>
+    <!--contact-->
+    <div class="row">
+        <div class="col-sm-2 text-center">
+
+            <div id="nav">
+                <a target="_blank" href="index.html"><img src="../img/Home.jpg" width="85px" height="85px" alt="Home">
+                </a>
+            </div>
+            <div class="text">Home</div>
+        </div>
+
+
+        <!--About Me-->
+        <div class="col-sm-2 text-center">
+            <div id="nav">
+                <a target="_blank" href="aboutme.html"><img
+                        src="/Users/vickylaw/Desktop/Assignments/Week01/Basic-Portfolio/assets/Others/images/aboutme.jpg"
+                        width="85px" height="85px" alt="About Me">
+                </a>
+            </div>
+            <div class="text">About Me</div>
+        </div>
+
+
+        <!--Resume-->
+        <div class="col-sm-2 text-center">
+            <div id="nav">
+                <a target="_blank"
+                    href="/Users/vickylaw/Desktop/Assignments/Week01/Basic-Portfolio/assets/Others/Document/Resume1.pages">
+                    <img alt="xxxxxxxxx"
+                        src="/Users/vickylaw/Desktop/Assignments/Week01/Basic-Portfolio/assets/Others/images/Resume.jpg"
+                        width="85px" height="85px" alt="Resume" title="Resume">
+                </a>
+            </div>
+            <div class="text">Resume</div>
+        </div>
+
+
+
+        <!--Linkedin-->
+        <div class="col-sm-2 text-center">
+            <div id="nav">
+                <a target="_blank"
+                    href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BGlRZ5qgfRV%2BHDhLCrrdkuA%3D%3D">
+                    <img src="/Users/vickylaw/Desktop/Assignments/Week01/Basic-Portfolio/assets/Others/images/2045582.jpg"
+                        width="85px" height="85px" alt="Linkedin">
+                </a>
+            </div>
+            <div class="text">Linkedin</div>
+        </div>
+
+
+
+        <!--GitHub-->
+        <div class="col-sm-2 text-center">
+            <div id="nav">
+                <a target="_blank" href="https://github.com/vlaw1217/vlaw1217.github.io">
+                    <img src="/Users/vickylaw/Desktop/Assignments/Week01/Basic-Portfolio/assets/Others/images/GitHub.jpg"
+                        width="85px" height="85px" alt="GitHub">
+                </a>
+            </div>
+            <div class="text">GitHub</div>
+
+        </div>
+
+
+        <!--Contact-->
+        <div class="col-sm-2 text-center">
+            <div id="nav">
+                <a target="_blank" href="contact.html">
+                    <img src="/Users/vickylaw/Desktop/Assignments/Week01/Basic-Portfolio/assets/Others/images/Contact.jpg"
+                        width="85px" height="85px" alt="Contact">
+                </a>
+            </div>
+            <div class="text">Contact</div>
+
+
+        </div>
+
+        <!--row-->
+    </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="footer">
+                Copyright 2019 &copy;Vicky Law
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

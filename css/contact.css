@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+        height: 100%;
+        margin: auto;
+        max-width: auto;
+        background-color: rgb(230, 225, 185);
+        
+}
+
+.header {
+    background-image: url("../img/background8.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px rgb(199, 194, 194);  
+}
+
+#me{
+    box-shadow: 5px 5px 5px grey;
+     
+ }
+
+.h1 {
+ color: purple;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ size: 60px;
+ padding: 30px;
+ text-shadow: 2px 2px 2px white;
+}
+
+.contact {
+    clear: both;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: purple;
+    text-shadow: 1px 1px 2px white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.form-group{
+    text-align: center;
+     
+}
+.inputLabel{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    text-shadow: 1px 1px 2px pink;
+
+}
+
+.inputBox{
+    clear: both;
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(121, 116, 116);
+}
+
+textarea.inputBox {
+    width: 500px;
+    height: 120px;
+
+}
+
+.row button {
+   color: white;
+   font-size: 20px;
+   background-color: purple;
+   box-shadow: 1px 1px 1px grey;
+   height:30px;
+   width: 100px;
+   margin-bottom: 60px;
+   margin-top: 20px;
+  
+}
+
+div.col-md-12.text-center {
+    clear: both;
+    padding-top: 5px;
+
+}
+
+.text { 
+    text-align: center;
+    font-family: Impact, sans-serif;
+    color: rgb(56, 44, 109);
+    font-size: 18px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px white;
+   
+}
+#nav img {
+    border-bottom-left-radius: 50%;
+    box-shadow: 0 0 1em maroon;
+   
+}
+
+#nav:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+  pointer-events: auto;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.footer {
+    clear: both;
+    padding: 200px;
+    text-align: center;
+    color: rgb(211, 193, 193);
+    
+}
+/*.footer {
+clear: all;
+padding-top: 30px;
+color: black;
+width: 100%;
+left: 0;
+bottom: 0;
+text-align: right;
+
+}*/
+

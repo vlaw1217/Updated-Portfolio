@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  /*background-image: url("../img/blackcat.jpg");
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  /*background-position: bottom;*/
+  
+  /*background-repeat: repeat;*/
+  /*background-size: 50%;*/
+  /*padding: 20px;*/
+  
+  font-family: 'Courier New', Courier, monospace;
+     
+}
+
+#photo {
+    box-shadow: 10px 10px 10px rgb(195, 151, 195);
+    margin-left: 50px;
+    
+}
+
+h1 {
+    color: purple;
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 50px;
+    text-shadow: 1px 1px 2px white;
+  
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 30px;
+    color: rgb(199, 189, 189);
+    text-shadow: 1px 1px 1px rgb(120, 37, 175);
+}
+
+
+p {
+    Clear: both;
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px rgb(207, 192, 218);
+
+    
+}
+
+p::first-letter {
+    Color: purple;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px pink;
+    
+}
+
+#nav img {
+    border-bottom-left-radius: 50%;
+    box-shadow: 0 0 1em rgb(175, 150, 207);
+    background-color: aliceblue;
+    
+}
+
+.text {
+    font-family: Impact, sans-serif;
+    color: rgb(195, 151, 195);
+    padding: 10px;
+    size: 14px;
+    
+}
+.row #nav{
+padding-top: 40px;
+}
+
+#nav:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+  pointer-events: auto;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.footer {
+    clear: both;
+    padding: 200px;
+    text-align: center;
+    color: rgb(179, 161, 161);
+    
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(219, 212, 212, 0.76);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  pointer-events: auto;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.flip-card-front {
+  background-color: rgb(123, 102, 163);
+  color: rgb(160, 99, 99);
+}
+
+.flip-card-back {
+  background-color:  rgb(221, 202, 221);
+  color: rgb(13, 14, 9);
+  text-shadow:1px 1px 2px yellow;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back h2 {
+    padding: 80px;
+    color: white;
+}
