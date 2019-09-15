@@ -11,12 +11,12 @@ body {
 }
 
 .header {
-    background-image: url("../img/background8.jpg");
-    background-position: bottom;
+    background-image: url("../img/scenery.jpg");
+    background-position: right top;
     background-repeat: no-repeat;
     height: 500px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
+    color: white;
     font-size: 50px;
     text-align: center;
     padding: 20px;
